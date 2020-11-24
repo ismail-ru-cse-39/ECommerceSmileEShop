@@ -45,7 +45,7 @@
         android:layout_marginRight="15dp"
         android:layout_marginTop="6dp"
         android:hint="Password"
-        android:inputType="number"
+        android:inputType="textPassword"
         android:textColor="@color/colorPrimaryDark"
         android:textColorHint="@color/colorPrimaryDark"
         android:textSize="17sp"
@@ -61,7 +61,8 @@
         android:layout_marginTop="5dp"
         >
 
-       <com.rey.material.widget.CheckBox
+      <!-- <com.rey.material.widget.CheckBox -->
+        <CheckBox
            android:id="@+id/remember_me_ckb"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
